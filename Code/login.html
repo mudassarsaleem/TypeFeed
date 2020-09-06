@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>.::.  Exciting Planet | Type Feed </title>
+
+
+    <!-- Remove Tap Highlight on Windows Phone IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta name="author" content="Mudassar Saleem">
+
+
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/css/bootstrap-theme.min.css" />
+
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/response.css" />
+
+    <!--Nano Scroller-->
+    <link rel="stylesheet" href="assets/3rdparty/jquery.nanoscroller/nanoscroller.css">
+
+    <!--icon fonts css-->
+    <link href="assets/fonts/material-icons/material-icons.css" rel="stylesheet" />
+    <link href="assets/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- -------------- IE8 HTML5 support  -------------- -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <div class="login-signup-page-wrapper" style="background-image: url(assets/img/login-page-bg.png)">
+        <div class="page-content clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-12 login-sign-wrap">
+
+                <div class="logo text-center">
+                    <a href="#">
+                        <img src="assets/img/typefeed-logo-sm2-w.png" alt="TypeFeed" />
+                    </a>
+                </div>
+                <div class="login-title bold-300 text-center">
+                    <p class="mb-30">Login to your Typefeed account</p>
+                </div>
+
+                <div class="cleafix">
+                    <div class="clearpad col-xs-12 col-sm-6 col-md-4 centered-div">
+                        <a href="#" class="btn facebook-btn btn-icon btn-block auto-width">
+                            <i class="fa fa-facebook-official icon-left"></i>
+                            <span class="f-16 bold-300">Login With Facebook</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/jquery-2.2.0.min.js"></script>
+    <script src="assets/3rdparty/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--custom js file-->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+
+        $('#contact_form_send_btn').click(function () {
+            //When You want to Open Alert Modal using Javascript
+            $('#sucess_alert_bs_modal').on('shown.bs.modal', function () {
+                livesports_js_functions.CloseBootstrapAlertModal();
+            }).modal('show');
+        });
+
+
+
+        $(".nano").nanoScroller();
+    </script>
+
+</body>
+
+</html>

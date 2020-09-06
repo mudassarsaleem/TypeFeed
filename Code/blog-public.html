@@ -1,0 +1,706 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>.::. Real Travel Stories - Exciting Planet | Type Feed </title>
+
+
+    <!-- Remove Tap Highlight on Windows Phone IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta name="author" content="Mudassar Saleem">
+
+
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/css/bootstrap-theme.min.css" />
+
+
+    <link rel="stylesheet" href="assets/css/theme.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/response.css" />
+
+    <!--Nano Scroller-->
+    <link rel="stylesheet" href="assets/3rdparty/jquery.nanoscroller/nanoscroller.css">
+
+    <!--icon fonts css-->
+    <link href="assets/fonts/material-icons/material-icons.css" rel="stylesheet" />
+    <link href="assets/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- -------------- IE8 HTML5 support  -------------- -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <!-- Off-Canvas Sidebar -->
+    <aside class="off-canvas-sidebar" id="off_canvas_sidebar">
+        <!-- Menu List Wrapper -->
+        <div class="menu-list-wrapper nano">
+            <!-- nano content is nona for scrollbar -->
+            <div class="nano-content">
+                <!-- Header -->
+                <div class="off-canvas-header">
+                    <div class="sidebar-profile-wrapper">
+                        <div class="sp-avatar">
+                            <a href="#">
+                                <img src="assets/img/blog-thumb.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="sp-details">
+                            <p class="f-16 mb-0"><a href="#" class="black-link">EXCITING PLANET</a></p>
+                            <p class="f-12 mb-0 lgray-color bold-300">
+                                <a href="#" class="lgray-color-link">Photography</a> /
+                                <a href="#" class="lgray-color-link">Travel</a> /
+                                <a href="#" class="lgray-color-link">Blog</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Vertical Menu List -->
+                <ul class="vertical-menu-list">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <!-- Vertical Menu List -->
+                <ul class="vertical-menu-list">
+                    <li class="vl-title lgray-color mb-20">Collections</li>
+                    <li><a href="#">Real Travel Stories</a></li>
+                    <li><a href="#">Asian Destinations</a></li>
+                    <li><a href="#">America</a></li>
+                    <li><a href="#">Europe</a></li>
+                    <li><a href="#">Australia</a></li>
+                    <li><a href="#">See All</a></li>
+                </ul>
+
+                <div class="social-media-icons ">
+                    <div class="inner-wrapper f-18">
+                        <a href="#" class="lgray-color-link"><i class="fa fa-globe"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-rss"></i></a>
+                    </div>
+                </div>
+
+                <p class="copyrights-text lgray-color text-uppercase">
+                    CREATE BLOGS WITH TYPEFEED
+                </p>
+            </div>
+
+        </div>
+        <!-- /.Menu List Wrapper -->
+    </aside>
+    <!-- Off Canvas Background Overlay-->
+
+    <a href="javascript:void(0)" class="off-canvas-bg-overlay off-canvas-toggle-btn"></a>
+    <!-- /.Off-Canvas Sidebar -->
+    <!-- Primary Topbar Header -->
+    <nav class="primary-topbar-navbar navbar" id="primary_topbar_navbar">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="clearfix" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="javascript:void(0)" class="off-canvas-toggle-btn" id="navbar_offcanvas_btn"><i class="material-icons"></i></a></li>
+                    <li class="autosuggest-search-option">
+                        <div class="blog-thumb">
+                            <a href="blog-public.html">
+                                <img src="assets/img/blog-thumb.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="autosuggest-search-group">
+                            <form>
+                                <input type="text" class="form-control" placeholder="Search" id="navbar_autosuggest_textbox">
+                                <a href="javascript:void(0)" class="right-icon">
+                                    <i class="material-icons">&#xE8B6;</i>
+                                </a>
+                            </form>
+                        </div>
+
+                        <!--AutoSuggest Result-->
+                        <div class="autosuggest-results-wrapper" id="autosuggest_results_wrapper" style="display:none">
+                            <!--group-->
+                            <div class="autosuggest-group">
+                                <p class="g-title">Posts</p>
+                                <ul class="suggest-result-list">
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-1.png" alt="" />
+                                            </div>
+                                            <div>A bacon sandwich from England and Poland's pickle juice are among some of...</div>
+                                            <span class="datetime">June 12, 2016 </span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-2.png" alt="" />
+                                            </div>
+                                            <div>A bacon sandwich from England and Poland's pickle juice are among some of...</div>
+                                            <span class="datetime">June 12, 2016 </span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-3.png" alt="" />
+                                            </div>
+                                            <div>A bacon sandwich from England and Poland's pickle juice are among some of...</div>
+                                            <span class="datetime">June 12, 2016 </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.group-->
+                            <div class="autosuggest-group">
+                                <p class="g-title">Categories</p>
+                                <ul class="suggest-result-list">
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-5.png" alt="" />
+                                            </div>
+                                            <div>Asian Travel</div>
+                                            <span class="datetime">90 posts</span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-4.png" alt="" />
+                                            </div>
+                                            <div>Photo Travel</div>
+                                            <span class="datetime">90 posts</span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-4.png" alt="" />
+                                            </div>
+                                            <div>Photo Travel</div>
+                                            <span class="datetime">90 posts</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="see-all-suggestion">
+                                <ul class="suggest-result-list text-center bold-500">
+                                    <li><a href="#"> SEE ALL </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- /.AutoSuggest Result-->
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-middle hidden-xs">
+                    <li class="active"><a href="blog-public.html">New</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html"><i class="material-icons">&#xE7FD;</i><span class="hidden-xs ml-5">Login</span></a></li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /.Primary Topbar Header -->
+    <!--**********Off-Canvas Content Body************-->
+    <div class="off-canvas-content">
+        <!-- Main Coverpage Section -->
+        <section id="main-coverpage-section" class="topbar-margin">
+
+            <!--Cover Background Image-->
+            <div class="coverpage-img" style="background-image: url(assets/img/blog-coverpage-bg.png)"></div>
+
+            <!-- Coverpage Profile Pic -->
+            <div class="coverpage-propic-wrapper">
+
+                <div class="cp-profile-avatar centered-div">
+                    <a href="#">
+                        <div class="pic-1by1 cp-avatar">
+                            <img src="assets/img/blog-thumb-lg.png" alt="" />
+                        </div>
+                    </a>
+                </div>
+
+                <p class="text-center cp-profile-title"><a href="#" class="white-link">Exciting Planet</a></p>
+
+                <p class="cp-profile-category">
+                    <span><a href="#">Photography</a></span>
+                    <span><a href="#">Travel</a></span>
+                    <span><a href="#">Blog</a></span>
+                </p>
+
+                <p class="cp-blog-title">
+                    Real Travel Stories
+                </p>
+
+                <p class="cp-blog-description">
+                    Share anything amazing about the world.
+                </p>
+
+                <p class="cp-blog-btns">
+                    <a href="#" class="btn dark-btn">
+                        Like and Follow Exciting Planet
+                    </a>
+                    <a href="javascript:void(0)" class="icon-btn dark-btn p-icon" data-toggle="modal" data-target="#contact_form_bs_modal">
+                        <i class="material-icons">&#xE0BE;</i>
+                    </a>
+                </p>
+
+                <p class="cp-blog-status">
+                    <span class="cp-st">768 <small>posts</small></span>
+                    <span class="cp-st">12,907 <small>likes</small></span>
+                    <span class="cp-st">12,209 <small>views</small></span>
+                </p>
+
+            </div>
+            <!-- /.Coverpage Profile Pic -->
+
+        </section>
+        <!-- /.Main Coverpage Section -->
+        <!-- Blog Feed Section -->
+        <section class="clearfix all-blog-feed-section">
+
+            <!-- All Feed Wrapper -->
+            <div class="clearfix all-blog-feed-wrapper ajax-data-blogposts-container">
+
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper">
+                        <a href="#">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-1.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper text-only">
+                        <a href="#" class="fb-link"></a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper">
+                        <a href="#">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-2.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper">
+                        <a href="#">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-3.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper video-only">
+                        <a href="#" class="fb-vlink">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-4.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper">
+                        <a href="#">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-5.png" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper">
+                        <a href="#">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-1.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper text-only">
+                        <a href="#" class="fb-link"></a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+                <!-- Single Feed Box Wrapper -->
+                <div class="clearpad col-xs-12 col-sm-6 col-md-4">
+                    <div class="single-feed-box-wrapper">
+                        <a href="#">
+                            <div class="fb-image pic-1by1">
+                                <img src="assets/img/feed/thumb-2.png" alt="" />
+                            </div>
+                        </a>
+                        <div class="fb-descrip">
+                            <div class="fb-avatar">
+                                <a href="#">
+                                    <img src="assets/img/blog-thumb.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="fb-detail">
+                                <p class="fb-datetime f-10 mb-0">2 days ago</p>
+                                <p class="fb-title">
+                                    <a href="#">There might be a lot of things holding you back from traveling: you’re don’t have a lot of money, are ...</a>
+                                </p>
+                                <p class="fb-status f-12">
+                                    <span><i class="material-icons">&#xE417;</i> 96,185</span>
+                                    <span><a href="javascript:void(0);" data-toggle="modal" data-target="#share_post_bs_modal"><i class="material-icons">&#xE80D;</i></a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Single Feed Box Wrapper -->
+
+            </div>
+            <!-- /.All Feed Wrapper -->
+            <!-- Load More Btn -->
+            <div class="text-center show-more-button-container">
+                <br />
+                <br />
+                <nav class="page-list-wrapper">
+                    <ul class="pagination">
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                    </ul>
+                </nav>
+                <br />
+                <br />
+            </div>
+            <!-- Load More Btn -->
+
+        </section>
+        <!-- /.Blog Feed Section -->
+        <!-- Primray Footer -->
+        <footer class="primary-footer-section clearfix">
+            <div class="pull-left">
+                <a href="#" class="lgray-color-link">EXCITING PLANET</a>
+                <span class="copy-right">
+                    Copyright
+                    <script>document.write(new Date().getFullYear());</script>
+                </span>
+            </div>
+
+            <div class="goto-top-btn-wrapper">
+                <!-- GOTO TOP BUTTON -->
+                <a href="javascript:void(0)" class="goto-top-btn dark-btn">
+                    <i class="material-icons">&#xE316;</i>
+                </a>
+            </div>
+
+            <div class="pull-right">
+                <span class="lgray-color follow-text">FOLLOW EXCITING PLANET</span>
+                <div class="social-media-icons">
+                    <div class="inner-wrapper f-18">
+                        <a href="#" class="lgray-color-link"><i class="fa fa-globe"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#" class="lgray-color-link"><i class="fa fa-rss"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+        <!-- /.Primray Footer -->
+    </div>
+    <!--********** /.Off-Canvas Content Body************-->
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx CUstom Modals xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <!-- Contact Form Bootstrap Modal -->
+    <div class="modal fade cs-bs-modal valign-center" id="contact_form_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close lgray-color-link" data-dismiss="modal" aria-label="Close"><i class="material-icons">&#xE5CD;</i></a>
+                    <h4 class="modal-title">Get in touch with Exciting Planet</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="clearfix">
+
+                        <div class="form-group">
+                            <input type="text" class="form-control no-radius" placeholder="Name" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control no-radius" placeholder="Email" />
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="8" class="form-control no-radius" placeholder="Write your message here..."></textarea>
+                        </div>
+
+                        <div class="text-right">
+                            <a href="javscript:void(0)" id="contact_form_send_btn" class="btn primary-btn">Send</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Contact Form Bootstrap Modal -->
+    <!-- Share Post Bootstrap Modal -->
+    <div class="modal fade cs-bs-modal valign-center" id="share_post_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close lgray-color-link" data-dismiss="modal" aria-label="Close"><i class="material-icons">&#xE5CD;</i></a>
+                    <h4 class="modal-title">Share this post</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="clearfix share-post-wrapper">
+                        <!-- Share Post Box -->
+                        <div class="share-post-box">
+                            <div class="sp-thumb">
+                                <a href="#">
+                                    <div class="pic-1by1">
+                                        <img src="assets/img/share-post-thumb.png" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sp-text">
+                                <p class="sp-title f-18 bold-600"><a href="#" class="black-link">I believe I always wanted to travel. My family had a very old atlas in the house...</a></p>
+                                <p class="sp-txt f-14 bold-300">Even though Lake Balaton is a very popular holiday place among locals, surprisingly there is actually no direct train connection to get there... </p>
+                                <p class="sp-txt f-14 bold-300"><em>90,897 Views</em></p>
+                            </div>
+                        </div>
+
+                        <!-- Share Post Media Icons -->
+                        <div class="share-post-icons-wrapper">
+                            <br />
+                            <p class="text-center bold-600">Share to</p>
+                            <p class="text-center">
+                                <a class="s-link" href="#"><i class="fa fa-facebook-official"></i></a>
+                                <a class="s-link" href="#"><i class="fa fa-twitter"></i></a>
+                                <a class="s-link" href="#"><i class="fa fa-google-plus"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Share Post Bootstrap Modal -->
+    <!-- Success Alert Bootstrap Modal -->
+    <div class="modal fade cs-bs-alert-modal valign-center" data-modal="bs-alert" id="sucess_alert_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="clearfix alert-message-wrapper success">
+                        <div class="alert-icon text-center">
+                            <span class="a-icon">
+                                <i class="material-icons">&#xE5CA;</i>
+                            </span>
+                        </div>
+                        <p class="alert-message text-center">Your message has been sent!</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Success Alert Bootstrap Modal -->
+
+    <script src="assets/js/jquery-2.2.0.min.js"></script>
+    <script src="assets/3rdparty/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--Nano Scroller-->
+    <script src="assets/3rdparty/jquery.nanoscroller/jquery.nanoscroller.min.js"></script>
+
+    <!--custom js file-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- owl carousel : for Schedule Panel Carousel -->
+    <script>
+
+        $('#contact_form_send_btn').click(function () {
+            //When You want to Open Alert Modal using Javascript
+            $('#sucess_alert_bs_modal').on('shown.bs.modal', function () {
+                livesports_js_functions.CloseBootstrapAlertModal();
+            }).modal('show');
+        });
+
+        
+
+        $(".nano").nanoScroller();
+    </script>
+
+</body>
+
+</html>

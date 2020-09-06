@@ -1,0 +1,805 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>.::.  Exciting Planet | Type Feed </title>
+
+
+    <!-- Remove Tap Highlight on Windows Phone IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta name="author" content="Mudassar Saleem">
+
+
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/3rdparty/bootstrap/css/bootstrap-theme.min.css" />
+
+    <link rel="stylesheet" href="assets/css/theme-1.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/response.css" />
+
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/jquery.morph-modal.css" rel="stylesheet" />
+
+    <!--Nano Scroller-->
+    <link rel="stylesheet" href="assets/3rdparty/jquery.nanoscroller/nanoscroller.css">
+
+    <!--icon fonts css-->
+    <link href="assets/fonts/material-icons/material-icons.css" rel="stylesheet" />
+    <link href="assets/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- -------------- IE8 HTML5 support  -------------- -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Primary Topbar Header -->
+    <nav class="primary-topbar-navbar navbar admin-theme" id="primary_topbar_navbar">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="clearfix" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="header-logo">
+                        <a href="#">
+                            <img src="assets/img/typefeed-icon-sm1-w.png" class="visible-xs" alt="TypeFeed" />
+                            <img src="assets/img/typefeed-logo-sm1-w.png" class="hidden-xs" alt="TypeFeed" />
+                        </a>
+                    </li>
+                    <li class="autosuggest-search-option">
+                        <div class="autosuggest-search-group">
+                            <form>
+                                <input type="text" class="form-control" placeholder="Search" id="navbar_autosuggest_textbox">
+                                <a href="javascript:void(0)" class="right-icon">
+                                    <i class="material-icons">&#xE8B6;</i>
+                                </a>
+                            </form>
+                        </div>
+
+                        <!--AutoSuggest Result-->
+                        <div class="autosuggest-results-wrapper" id="autosuggest_results_wrapper" style="display:none">
+                            <!--group-->
+                            <div class="autosuggest-group">
+                                <p class="g-title">Posts</p>
+                                <ul class="suggest-result-list">
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-1.png" alt="" />
+                                            </div>
+                                            <div>A bacon sandwich from England and Poland's pickle juice are among some of...</div>
+                                            <span class="datetime">June 12, 2016 </span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-2.png" alt="" />
+                                            </div>
+                                            <div>A bacon sandwich from England and Poland's pickle juice are among some of...</div>
+                                            <span class="datetime">June 12, 2016 </span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-3.png" alt="" />
+                                            </div>
+                                            <div>A bacon sandwich from England and Poland's pickle juice are among some of...</div>
+                                            <span class="datetime">June 12, 2016 </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.group-->
+                            <div class="autosuggest-group">
+                                <p class="g-title">Categories</p>
+                                <ul class="suggest-result-list">
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-5.png" alt="" />
+                                            </div>
+                                            <div>Asian Travel</div>
+                                            <span class="datetime">90 posts</span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-4.png" alt="" />
+                                            </div>
+                                            <div>Photo Travel</div>
+                                            <span class="datetime">90 posts</span>
+                                        </a>
+                                    </li>
+                                    <li class="sg-item">
+                                        <a href="#" class="sl-link">
+                                            <div class="sg-thumb pic-16by9">
+                                                <img src="assets/img/searchbar/search-4.png" alt="" />
+                                            </div>
+                                            <div>Photo Travel</div>
+                                            <span class="datetime">90 posts</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="see-all-suggestion">
+                                <ul class="suggest-result-list text-center bold-500">
+                                    <li><a href="#"> SEE ALL </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- /.AutoSuggest Result-->
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- User Profile Dropdown -->
+                    <li class="dropdown user-profile-options-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <div class="avatar">
+                                <img src="assets/img/user-dd-avatar.png" class="user-avatar">
+                            </div>
+                            <span class="name ml-5 hidden-xs">Torch Chavez</span>
+                            <span class="caret pull-right ml-10"></span>
+                        </a>
+                        <!-- Setting Dropdown -->
+                        <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">My Blogs</a></li>
+                            <li><a href="#">Account Settings</a></li>
+                            <li><a href="#">Logout</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="option-with-img">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="assets/img/profile-avatar-sm.png" class="l-img">
+                                    </div>
+                                    Profiles
+                                </a>
+                            </li>
+                            <li class="option-with-img">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="assets/img/profile-avatar-sm.png" class="l-img">
+                                    </div>
+                                    LiveSports
+                                </a>
+                            </li>
+                            <li class="option-with-img">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="assets/img/profile-avatar-sm.png" class="l-img">
+                                    </div>
+                                    DesignX
+                                </a>
+                            </li>
+                            <li class="option-with-img">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="assets/img/profile-avatar-sm.png" class="l-img">
+                                    </div>
+                                    Game Time
+                                </a>
+                            </li>
+                            <li class="option-with-img">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="assets/img/profile-avatar-sm.png" class="l-img">
+                                    </div>
+                                    Slark
+                                </a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Help &amp; Support</a></li>
+                            <li><a href="#">Join Typefeed Community</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">About Typefeed</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /.Primary Topbar Header -->
+    <!--**********Off-Canvas Content Body************-->
+    <div class="off-canvas-content admin-theme">
+
+        <section class="admin-page-content-wrapper topbar-margin">
+            <div class="container big">
+                <div class="row">
+
+                    <!-- Title Wrapper  -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-50">
+                        <p class="section-title text-uppercase mb-0">My Blogs</p>
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#things_to_remember_bs_modal" class="pri-link f-14">10 Things to remember when creating a blog or a post on Typefeed.</a>
+                    </div>
+
+                    <!-- My Blogs Wrapper -->
+                    <div class="clearpad col-xs-12 col-sm-12 col-md-12 col-lg-12 my-blogs-wrapper">
+
+                        <!-- Single Blog Box: Create Blog Button -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box create-blog-btn">
+                                <a href="javscript:void(0)" data-toggle="modal" data-target="#create_new_blog_bs_modal" class="white-link">
+                                    <div class="sb-thumb pic-16by9">
+                                    </div>
+                                    <div class="sb-content">
+                                        <div class="sb-avatar text-center">
+                                            <i class="material-icons">&#xE145;</i>
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Create New Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-1.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/inked-story.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Inked Story
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-2.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/wallski.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            WALLSKI
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-3.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/game-time.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Game Time
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-4.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/exciting-planet.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Exciting Planet
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-5.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/profiles.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Profiles
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-6.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/livesports.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            LiveSports
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-7.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/designx.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            DesingX
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-8.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/dance-class.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Dance Class
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-9.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/chatters.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Chatters
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box: Empty Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box empty">
+                                <a href="#">
+                                    <div class="sb-thumb pic-16by9">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Box -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-blog-box">
+                                <div class="sb-thumb pic-16by9">
+                                    <img src="assets/img/my-blogs/blog-11.png" alt="" />
+                                </div>
+
+                                <div class="sb-content">
+                                    <a href="#" class="white-link">
+                                        <div class="sb-avatar text-center">
+                                            <img src="assets/img/blog-thumbs/slark.png" alt="" />
+                                        </div>
+                                        <div class="sb-title text-center">
+                                            Slark
+                                        </div>
+                                        <div class="sb-percent text-center">
+                                            90% Complete
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sb-links">
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE1AF;</i>Dashboard</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE80B;</i>View Blog</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE3C9;</i>New Post</a>
+                                    <a href="#" class="b-link"><i class="material-icons">&#xE922;</i>Stats</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- My Blogs Wrapper -->
+                    <!-- Leader Board Ad -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-50 mb-30">
+                        <a href="#">
+                            <img src="assets/img/leader-board-ad.png" class="img-responsive centered-div" />
+                        </a>
+                    </div>
+                    <!-- Leader Board Ad -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Primray Footer -->
+        <footer class="primary-footer-section clearfix">
+            <div class="pull-left">
+                <a href="#" class="lgray-color-link">TypeFeed</a>
+                <span class="copy-right">
+                    Copyright
+                    <script>document.write(new Date().getFullYear());</script>
+                </span>
+            </div>
+
+            <div class="goto-top-btn-wrapper">
+                <!-- GOTO TOP BUTTON -->
+                <a href="javascript:void(0)" class="goto-top-btn dark-btn">
+                    <i class="material-icons">&#xE316;</i>
+                </a>
+            </div>
+
+            <div class="pull-right">
+                <span class="lgray-color follow-text text-uppercase">Made By DesignX</span>
+            </div>
+
+
+        </footer>
+        <!-- /.Primray Footer -->
+    </div>
+    <!--********** /.Off-Canvas Content Body************-->
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx CUstom Modals xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <!-- Contact Form Bootstrap Modal -->
+    <div class="modal fade cs-bs-modal valign-center" id="create_new_blog_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close lgray-color-link" data-dismiss="modal" aria-label="Close"><i class="material-icons">&#xE5CD;</i></a>
+                    <h4 class="modal-title">Create a New Blog</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="clearfix">
+
+                        <div class="form-group">
+                            <input type="text" class="form-control no-radius" placeholder="Blog Name" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="url" class="form-control no-radius" placeholder="Blog URL" />
+                            <div class="clearfix">
+                                <p class="pull-left mt-5 sans-text f-12 bold-300">typefeed.com/</p>
+                                <p class="pull-right mt-5 sans-text f-12 bold-300">You may add custom domain later</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group c-select">
+                            <select class="form-control no-radius">
+                                <option class="">Category</option>
+                                <option class="">Category A</option>
+                                <option class="">Category B</option>
+                                <option class="">Category C</option>
+                                <option class="">Category D</option>
+                            </select>
+                        </div>
+
+                        <div class="text-right">
+                            <div class="pull-left">
+                                <div class="custom-checkbox mt-10 mb-10 mr-10">
+                                    <input type="checkbox" name="site_term_check" id="Radio1" value="" >
+                                    <label for="Radio1" class="ch-color sans-text f-14">
+                                        I agree with Typefeed <a href="#" class="pri-link">Site Terms</a>
+                                    </label>
+                                </div>
+
+                            </div>
+                            <a href="javscript:void(0)" id="create_new_blog_modal_btn" class="btn dark-btn">Create New Blog</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Contact Form Bootstrap Modal -->
+    <!-- Things To Remember Bootstrap Modal -->
+    <div class="modal fade cs-bs-modal valign-center" id="things_to_remember_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close lgray-color-link" data-dismiss="modal" aria-label="Close"><i class="material-icons">&#xE5CD;</i></a>
+                    <h4 class="modal-title">10 Things to Remember when using Typefeed</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="clearfix share-post-wrapper">
+                        <!-- Video -->
+                        <div class="mb-20">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3byRu3KM45g"></iframe>
+                            </div>
+                        </div>
+
+                        <p class="sans-text f-14">
+                            For more information, please visit our <a href="#" class="pri-link">Help Center</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Things To Remember  Bootstrap Modal -->
+    <!-- Site Tour Bootstrap Modal -->
+    <div class="modal fade cs-bs-modal valign-center" id="site_tour_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="javascript:void(0)" class="close lgray-color-link" data-dismiss="modal" aria-label="Close"><i class="material-icons">&#xE5CD;</i></a>
+                    <h4 class="modal-title">Welcome to Typefeed Torch!</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="clearfix share-post-wrapper">
+                        <!-- Video -->
+                        <div class="mb-20">
+                            <!-- 16:9 aspect ratio -->
+                            <!--<div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3byRu3KM45g"></iframe>
+                            </div>-->
+                            <img src="assets/img/welcome-tour-bg.png" alt="" class="img-responsive" />
+                        </div>
+
+                        <div class="clearfix">
+                            <p class="sans-text f-14 mt-10 mb-10 mr-10 pull-left">
+                                For more information, please visit our <a href="#" class="pri-link">Help Center</a>
+                            </p>
+                            <a href="javscript:void(0)" data-dismiss="modal" class="pull-right btn dark-btn">
+                                START USING TYPEFEED
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Site Tour  Bootstrap Modal -->
+    <!-- Success Alert Bootstrap Modal -->
+    <div class="modal fade cs-bs-alert-modal valign-center" data-modal="bs-alert" id="sucess_alert_bs_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="clearfix alert-message-wrapper success">
+                        <div class="alert-icon text-center">
+                            <span class="a-icon">
+                                <i class="material-icons">&#xE5CA;</i>
+                            </span>
+                        </div>
+                        <p class="alert-message text-center">Success</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- /.Success Alert Bootstrap Modal -->
+    <!-- Select New Post Type - Morph Modal -->
+    <div class="morph-modal dark select-new-post-morph-modal" data-morphmodal="modal" id="select_new_post_morph_modal">
+        <a href="javascript:void(0)" data-morphmodal="close" class="modal-close-btn visible-xs">
+            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Svg3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 371.23 371.23" style="enable-background: new 0 0 371.23 371.23;" xml:space="preserve">
+            <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23 185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 " />
+			</svg>
+        </a>
+
+        <div class="clearfix modal-content-body">
+
+            <div class="modal-content-inner">
+
+
+                <div class="clearfix">
+
+                    <div class="select-post-type-wrapper col-md-10 centered-div">
+                        <p class="mm-title text-center mb-30">Create a New Post</p>
+
+                        <div class="post-type-options">
+                            <a href="#" class="p-type"><i class="material-icons">&#xE254;</i></a>
+                            <a href="#" class="p-type"><i class="material-icons">&#xE3B0;</i></a>
+                            <a href="#" class="p-type"><i class="material-icons">&#xE04B;</i></a>
+                            <a href="#" class="p-type"><i class="material-icons">&#xE03D;</i></a>
+                            <a href="#" class="p-close-type hidden-xs" data-morphmodal="close">
+                                <i class="material-icons">&#xE5CD;</i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- /.Select New Post Type - Morph Modal -->
+
+
+    <script src="assets/js/jquery-2.2.0.min.js"></script>
+    <script src="assets/3rdparty/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.morph-modal.js" async defer></script>
+
+    <!--Nano Scroller-->
+    <script src="assets/3rdparty/jquery.nanoscroller/jquery.nanoscroller.min.js"></script>
+
+    <!--custom js file-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- owl carousel : for Schedule Panel Carousel -->
+    <script>
+
+        $('#site_tour_bs_modal').modal('show');
+
+        $('#create_new_blog_modal_btn').click(function () {
+            //When You want to Open Alert Modal using Javascript
+            $('#sucess_alert_bs_modal').on('shown.bs.modal', function () {
+                livesports_js_functions.CloseBootstrapAlertModal();
+            }).modal('show');
+        });
+
+
+
+        $(".nano").nanoScroller();
+    </script>
+
+</body>
+
+</html>

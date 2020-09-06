@@ -1,0 +1,2 @@
+# master => exclude everything from Documentation folder
+Documentation/*
